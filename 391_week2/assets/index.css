@@ -1,0 +1,101 @@
+/* navigation */
+
+/* styles.css or index.css */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+
+/* Fortune box */
+.fortune-box {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Currency Converter */
+
+.container {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.currency_header {
+    margin-bottom: 20px;
+}
+
+.currency-fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.currency_label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.clear-button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.clear-button:hover {
+    background-color: #6f6c6c;
+}
